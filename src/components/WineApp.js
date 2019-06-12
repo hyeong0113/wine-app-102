@@ -14,9 +14,7 @@ export class WineApp extends Component {
   };
 
   render() {
-    // Create a flag to hide buttons on the home page.
     const displayButton = window.location.pathname !== '/';
-
     return (
       <div className="container">
         <h1 className="center-align">Open Wine Database</h1>

@@ -19,14 +19,11 @@ export class RegionsPage extends Component {
           });
         });
     }
-
     onSelectRegion = (region) => {
         this.props.router.push({
         pathname: `/regions/${region}`
         });
     };
-        
-        
     render() {
       console.log('dd', this.props)
         if (this.state.loading) {
